@@ -1,0 +1,4 @@
+#include <bits/stdc++.h>
+using namespace std;using ll=long long;using i128=__int128_t;
+bool valid(int p,int s,ll un,ll ud,ll &gn,ll &gd){int M=21;ll U=un%(p*ud);if(U<0)U+=p*ud;vector<ll>x(M);gn=0;gd=1;for(int h=1;h<M;h++)for(int i=0;i+h<M;i++)for(int m=0;m<h;m++){ll mod=1LL*p*ud*h,bn=1LL*p*m*ud-U*h*(2*i+h);for(int k=0;k<M;k++){ll z=(ll)(-((i128)U*h*k*k+(i128)bn*k)%mod);if(z<0)z+=mod;x[k]=z;}sort(x.begin(),x.end());ll g=mod-x.back()+x.front();for(int k=1;k<M;k++)g=max(g,x[k]-x[k-1]);if((i128)g*gd>(i128)gn*ud*h){gn=g;gd=ud*h;}if(g>(ll)s*ud*h)return false;}return true;}
+int main(){string line;int count=0;while(getline(cin,line)){int a,b,p,s,h,d;double v;if(sscanf(line.c_str(),"%d/%d candidate p=%d s=%d R=%d/%d approximate=%lf",&a,&b,&p,&s,&h,&d,&v)!=7)continue;ll gn,gd;bool ok=valid(p,s,(ll)a*h,(ll)b*d,gn,gd);count++;if(ok)cout<<"CERTIFIED "<<a<<'/'<<b<<" p="<<p<<" s="<<s<<" R="<<h<<'/'<<d<<" G="<<gn<<'/'<<gd<<'\n';}cerr<<"verified "<<count<<" candidates\n";}
