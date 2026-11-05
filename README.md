@@ -123,7 +123,7 @@ The first program searches a restricted family of consecutive-residue spherical 
 For a modulus $p$, integer $M\ge2$, and real $u$, define
 
 $$
-G_{p,M}(u)=\max_{\beta\in\mathbb R}\text{gap}\{-uk^2-\beta k\pmod p:0\le k<M\},
+G_{p,M}(u) = \max_{\beta \in \mathbb{R}} \text{gap} \\{ -uk^2 - \beta k \pmod p : 0 \le k < M \\},
 $$
 
 where `gap` is the largest circular gap between consecutive points on $\mathbb R/p\mathbb Z$.
