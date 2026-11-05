@@ -102,7 +102,7 @@ g++ -O2 -std=c++17 verify_m21_examples.cpp -o verify_m21_examples
 This prints exact gap values and a pass/fail comparison for selected colourings at
 
 $$
-\alpha^2\in\left\{\frac14,\frac19,\frac2{15},\frac34\right\}.
+\alpha^2\in\{\frac14,\frac19,\frac2{15},\frac34\}.
 $$
 
 The examples illustrate **why those particular choices fail**. They do **not** prove that no spherical colouring works for the four scales. `verify_m21_examples.cpp` includes `verify_four.cpp`, so compile the former by itself.
@@ -124,7 +124,7 @@ For a modulus $p$, integer $M\ge2$, and real $u$, define
 
 $$
 G_{p,M}(u)=\max_{\beta\in\mathbb R}\text{gap}
-\{-uk^2-\beta k\pmod p:0\le k<M\},
+\{ -uk^2-\beta k\pmod p:0\le k<M\},
 $$
 
 where `gap` is the largest circular gap between consecutive points on $\mathbb R/p\mathbb Z$.
