@@ -12,7 +12,7 @@ $$
 \mathbb E^n\not\longrightarrow (\ell_3,\alpha\ell_M)
 $$
 
-if there exists a red–blue colouring of $\mathbb R^n$ with **no red three-term collinear arithmetic progression of consecutive spacing $1$** and **no blue $M$-term collinear arithmetic progression of consecutive spacing $\alpha$**. Here $\alpha>0$ and $n\ge1$.
+if there exists a red–blue colouring of $ℝ^n$ with **no red three-term collinear arithmetic progression of consecutive spacing $1$** and **no blue $M$-term collinear arithmetic progression of consecutive spacing $\alpha$**. Here $\alpha>0$ and $n\ge1$.
 
 Our main results and investigations are:
 
