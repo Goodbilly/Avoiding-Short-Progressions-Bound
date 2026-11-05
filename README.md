@@ -18,9 +18,9 @@ Our main results and investigations are:
 
 | Number of blue terms | Scope | Status |
 | --- | --- | --- |
-| $M=22$ | Every $\alpha>0$ and every $n\ge1$ | **Proved** |
-| $M=17$ | In particular, every $\alpha$ with irrational $\alpha^2$ | **Proved in the stated special regime** |
-| $M=21$ | Every $\alpha>0$ except possibly $\alpha^2\in\{1/4,1/9,2/15,3/4\}$ | **Partial result** |
+| $M=22$ | Every $\alpha>0$ and every $n\ge1$ |
+| $M=17$ | In particular, every $\alpha$ with irrational $\alpha^2$ |
+| $M=21$ | Every $\alpha>0$ except possibly $\alpha^2\in\{1/4,1/9,2/15,3/4\}$ |
 
 **The uniform $M=21$ bound is not claimed.** The four displayed squared scales are unresolved by the methods implemented here; they are not known counterexamples.
 
