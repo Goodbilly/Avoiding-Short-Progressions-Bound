@@ -178,11 +178,11 @@ The current example computes $G_{29,22}(1/2)$.
 
 ## Further research
 
-The uniform $M=21$ question remains open within this approach, with the four squared scales $1/4$, $1/9$, $2/15$, and $3/4$ not yet covered by the recorded constructions. Promising directions include exact optimization over the red-admissible spacing intervals and spherical colourings using nonconsecutive residue sets.
+The uniform $M=21$ question remains open within this approach, with the four squared scales $1/4$, $1/9$, $2/15$, and $3/4$ not yet covered by the recorded constructions. Promising directions include exact optimization over the red-avoiding spacing intervals and spherical colourings using nonconsecutive residue sets.
 
 ## Citation
 
-If you use these programs in research, please cite the accompanying paper (add its full bibliographic information and DOI/arXiv link when available) and link to this repository. The paper contains the mathematical arguments; this repository provides reproducible computations supporting them.
+If you use these programs in research, please cite the accompanying paper (add its full bibliographic information and DOI/arXiv link when available) and link to this repository.
 
 ---
 
