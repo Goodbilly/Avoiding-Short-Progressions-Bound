@@ -9,7 +9,7 @@ This repository accompanies our work on two-colourings of Euclidean spaces avoid
 Write
 
 $$
-\mathbb E^n\not\longrightarrow (\ell_3,\alpha\ell_M)
+𝔼^n\not\longrightarrow (\ell_3,\alpha\ell_M)
 $$
 
 if there exists a red–blue colouring of $ℝ^n$ with **no red three-term collinear arithmetic progression of consecutive spacing $1$** and **no blue $M$-term collinear arithmetic progression of consecutive spacing $\alpha$**. Here $\alpha>0$ and $n\ge1$.
@@ -123,10 +123,10 @@ The first program searches a restricted family of consecutive-residue spherical 
 For a modulus $p$, integer $M\ge2$, and real $u$, define
 
 $$
-G_{p,M}(u) = \max_{\beta \in \mathbb R} \text{gap} \\{ -uk^2 - \beta k \pmod p : 0 \le k < M \\},
+G_{p,M}(u) = \max_{\beta \in ℝ} \text{gap} \\{ -uk^2 - \beta k \pmod p : 0 \le k < M \\},
 $$
 
-where `gap` is the largest circular gap between consecutive points on $\mathbb R/p\mathbb Z$.
+where `gap` is the largest circular gap between consecutive points on $ℝ/pℤ$.
 
 The principal colourings are spherical:
 
