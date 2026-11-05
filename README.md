@@ -81,7 +81,7 @@ The expected CSV format is one headerless row per coefficient:
 M,p,s,j,gap_n,gap_d
 ```
 
-representing $G_{p,M}(j/10)=\texttt{gap_n}/\texttt{gap_d}$. With the data used for the paper, the script constructs admissible coefficient intervals by the Lipschitz bound, checks exact rational interval intersections, and reports the remaining squared scales. The previous research computation gave **5,262** fractions outside the broad inequality and **eight** remaining cases before applying the four explicit colourings above.
+representing $G_{p,M}(j/10)=\texttt{gap\\_n}/\texttt{gap\\_d}$. With the data used for the paper, the script constructs admissible coefficient intervals by the Lipschitz bound, checks exact rational interval intersections, and reports the remaining squared scales. The previous research computation gave **5,262** fractions outside the broad inequality and **eight** remaining cases before applying the four explicit colourings above.
 
 After adding the CSV files, independently recheck the qualifying gap values with:
 
