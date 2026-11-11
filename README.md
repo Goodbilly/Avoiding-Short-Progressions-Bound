@@ -2,7 +2,7 @@
 
 **Research code and exact computations for improved Euclidean Ramsey bounds.**
 
-This repository accompanies our work on two-colourings of Euclidean spaces avoiding short monochromatic arithmetic progressions. It provides exact arithmetic checks for the uniform 22-term bound, a 17-term result for irrational squared scale, and an investigation of the 21-term bound.
+This repository accompanies our work on two-colourings of Euclidean spaces avoiding short monochromatic arithmetic progressions  (reference paper: https://arxiv.org/abs/2611.12360). It provides exact arithmetic checks for the uniform 22-term bound, a 17-term result for irrational squared scale, and an investigation of the 21-term bound.
 
 ## The problem and the results
 
@@ -182,7 +182,7 @@ The uniform $M=21$ question remains open within this approach, with the four squ
 
 ## Citation
 
-If you use these programs in research, please cite the accompanying paper (add its full bibliographic information and DOI/arXiv link when available) and link to this repository.
+If you use these programs in research, please cite the accompanying paper (https://arxiv.org/abs/2611.12360) and link to this repository.
 
 ---
 
