@@ -176,10 +176,6 @@ The current example computes $G_{29,22}(1/2)$.
 - Some C++ programs use `assert` for verification. Compile **without** `-DNDEBUG`, which would disable those checks.
 - If a program appears slow, note that exact gap evaluation enumerates many pairwise coincidences; runtime depends on hardware and compiler optimization.
 
-## Further research
-
-The uniform $M=21$ question remains open within this approach, with the four squared scales $1/4$, $1/9$, $2/15$, and $3/4$ not yet covered by the recorded constructions. Promising directions include exact optimization over the red-avoiding spacing intervals and spherical colourings using nonconsecutive residue sets.
-
 ## Citation
 
 If you use these programs in research, please cite the accompanying paper (https://arxiv.org/abs/2611.12360) and link to this repository.
