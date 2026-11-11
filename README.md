@@ -179,7 +179,3 @@ The current example computes $G_{29,22}(1/2)$.
 ## Citation
 
 If you use these programs in research, please cite the accompanying paper (https://arxiv.org/abs/2611.12360) and link to this repository.
-
----
-
-**Repository:** https://github.com/Goodbilly/Avoiding-Short-Progressions-Bound
